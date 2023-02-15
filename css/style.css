@@ -27,6 +27,7 @@ nav ul {
 main img {
   display: flex;
   margin: auto;
+  padding: 30px;
 }
 
 main ul {
@@ -36,6 +37,8 @@ main ul {
 
 section{
   display: flex;
+  margin: none;
+
 }
 p{
   height: 300px; 
@@ -58,5 +61,4 @@ footer {
   background-color: #444;
   height: 150px;
 }
-
 
