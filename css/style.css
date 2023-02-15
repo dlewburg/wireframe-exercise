@@ -1,17 +1,47 @@
+body{
+  font-family:Georgia, 'Times New Roman', Times, serif;
+
+  margin: 20px;
+}
+
+  /* ul {
+list-style: none;
+text-decoration: none;
+} */
+
+nav{
+  display: flex;
+  justify-content: space-around;
+}
+
+a:link{
+
+  text-decoration: none;
+}
+
+nav ul {
+  display: flex;
+  justify-content:space-around;
+}
+
+main ul {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+
 p{
   height: 300px; 
   width: 300px;
   overflow: auto;
 }
 
-Transition and Hover
-
 button{
-  transition: 2000ms;
+  transition: 350ms;
 }
 
 button:hover {
-  background-color: green;
+  background-color: rgba(71, 0, 213, 0.487);
 } 
 
 footer {
