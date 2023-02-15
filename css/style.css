@@ -1,17 +1,15 @@
 body{
   font-family:Georgia, 'Times New Roman', Times, serif;
 
+  gap: 30px;
+
   margin: 20px;
 }
 
-  /* ul {
-list-style: none;
-text-decoration: none;
-} */
-
 nav{
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
+  flex-grow: 1;
 }
 
 a:link{
@@ -21,7 +19,14 @@ a:link{
 
 nav ul {
   display: flex;
-  justify-content:space-around;
+  align-items: center;
+  gap: 30px;
+  /* flex-grow: 1; */
+}
+
+main img {
+  display: flex;
+  margin: auto;
 }
 
 main ul {
@@ -29,15 +34,20 @@ main ul {
   justify-content: space-evenly;
 }
 
-
+section{
+  display: flex;
+}
 p{
   height: 300px; 
   width: 300px;
   overflow: auto;
+  display: inline-flexbox;
 }
 
 button{
   transition: 350ms;
+  height: 25px;
+
 }
 
 button:hover {
